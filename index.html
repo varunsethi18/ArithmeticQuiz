@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>VinSol Quiz</title>
+</head>
+<body>
+        <div class="header">
+                <div class="quizName">Airthmatic Quiz</div>
+        </div>
+    <div class="inputContainer" id="inputContainer">
+                 <form onsubmit="return myFunction(event)">
+                    <input min="0" id="numberOfSection" type="number" placeholder="Enter No. of sections" required ></input>
+                    <input min="0" id="numberOfQuestions" type="number" placeholder="Enter No. of Questions" required></input>
+                    <input min="0" id="numberOfParameters" type="number" placeholder="Enter No. of Parameters" required></input>
+                   <div><input type="submit" >  </div> 
+                 </form>    
+    </div>
+    <div id="mainContainer">
+        <h5 id="note" style="display: none;color: red">Note: You can't go back and edit answers</p>
+    </div>
+</body>
+</html>
